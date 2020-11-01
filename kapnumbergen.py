@@ -9,7 +9,7 @@ def solve_kap(num):
     for i in range(1, len(sqrdnum)):
         first, second = int(sqrdnum[:i]), int(sqrdnum[i:])
         if (first + second) == num:
-            print num, sqrdnum, "(%s, %s)" % (first, second)
+            print(num, sqrdnum, "(%s, %s)" % (first, second))
 
 for x in next_num(1):
     solve_kap(x)
